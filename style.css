@@ -1,0 +1,80 @@
+#font{
+	font-family: 'Anton', sans-serif;
+	margin-top: 13%
+}
+.section{
+	width: 100%;
+	height: 720px;
+	background: url(Covid19%20Gallery/Corona.jpg);
+	background-size: cover;
+	background-position: top;
+}
+.overlay{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.75);
+}
+.display-1{
+	margin-top: 10%
+}
+#btn{
+	display: block;
+	max-width: 300px;
+	margin: auto;
+	margin-top: 20px;
+}
+hr{
+	height: 1px;
+	width: 10%;
+	background-color: red;
+}
+#card{
+	background-color: #01CBC6;
+}
+#footer{
+	background-color: #2F363F;
+	height: 100px;
+
+}
+
+.marginS{
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 50px;
+
+}
+
+.marginUT{
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+
+#more {display: none;}
+
+canvas{
+	padding left: 40px;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+.Opacity {
+    border: solid lightgrey;
+	background-image: url(Covid19%20Gallery/Chart.jpg);
+	width: inherit;
+	height: inherit;
+	background-size: contain;
+}
+/*position:relative;
+    min-height: 100vh;
+    background:#111;
+    background:url(images/myPic1.jpg);
+    background-size:cover;
+    background-position: right;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;*/
